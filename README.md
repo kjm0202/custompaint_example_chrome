@@ -1,16 +1,21 @@
-# custompaint
+# Flutter CustomPaint 예제 - Chrome 아이콘
 
-A new Flutter project.
+Flutter의 CustomPaint만을 이용하여 Chrome 아이콘을 직접 그려보았습니다.
 
-## Getting Started
+## CustomPaint란?
 
-This project is a starting point for a Flutter application.
+CustomPaint는 Flutter 렌더링 파이프라인의 paint 단계에 직접 그림을 그릴 수 있도록 해주는 위젯으로, 
 
-A few resources to get you started if this is your first Flutter project:
+CustomPainter를 통해 배경(painter), 자식(child), 전경(foregroundPainter) 순서로 캔버스 위에 원하는 그래픽을 자유롭게 렌더링할 수 있게 해줍니다. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+이를 통해 복잡한 도형, 애니메이션, 커스텀 UI 요소 등을 고성능으로 구현할 수 있습니다.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 결과물
+
+Github Pages에서 직접 확인해보세요: [바로가기](https://kjm0202.github.io/custompaint_example_chrome/)
+
+![image](https://github.com/user-attachments/assets/7e40e4fe-aae4-41ab-9ad3-1c39da3f27ce)
+
+## 설명
+
+`main.dart` 코드 내에 간단한 설명을 주석으로 달아놓았으니 참고 부탁드립니다.
